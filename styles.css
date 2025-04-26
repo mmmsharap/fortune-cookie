@@ -31,6 +31,12 @@ body {
   font-size: 4em;
 }
 
+#help {
+    font-size: 2em;
+    font-weight: bold;
+}
+
 .showed {
-  color: rgb(176, 64, 32) !important;
+    color: white !important;
+  /* color: rgb(176, 64, 32) !important; */
 }

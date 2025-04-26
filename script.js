@@ -1,5 +1,6 @@
 let cookie = document.getElementById("cookie");
 let message = document.getElementById("message");
+let help = document.getElementById("help");
 
 function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
@@ -8,6 +9,7 @@ function sleep(ms) {
 async function start() {
   cookie.play();
   await sleep(1750);
+  help.remove();
   message.classList.add("showed");
 }
 
