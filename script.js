@@ -8,7 +8,7 @@ function sleep(ms) {
 
 async function start() {
   cookie.play();
-  await sleep(1750);
+  await sleep(350);
   help.remove();
   message.classList.add("showed");
 }
